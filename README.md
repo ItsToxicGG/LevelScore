@@ -9,6 +9,10 @@ and also check out my other plugins there name is
 - Duelss
 
 Theres is more you can check!
+# Required
+- This plugin is required to have the plugin ScoreHud to work
+- if you do not have the plugin it may cause an error 
+- Plugin: https://poggit.pmmp.io/p/ScoreHud/
 # Support
 - LevelSystem by leykey
 
