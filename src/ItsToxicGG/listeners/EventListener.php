@@ -1,6 +1,6 @@
 <?php 
 
-namespace ItsToxicGG\Listeners;
+namespace ItsToxicGG\listeners;
 
 use ItsToxicGG\LvlScore;
 use Ifera\ScoreHud\event\PlayerTagUpdateEvent;
