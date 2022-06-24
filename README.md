@@ -1,6 +1,14 @@
 # LevelScore
-A Plugin which allows players to add {LVL} to the scorehud plugin.
-This is plugin only supports LevelSystem made by Leykey.
+INFO:
+hi, im toxic and im not good php development yet this is only one of my plugins
+
+i hope it works
+
+and also check out my other plugins there name is
+- LDFx
+- Duelss
+
+Theres is more you can check!
 # Support
 - LevelSystem by leykey
 
