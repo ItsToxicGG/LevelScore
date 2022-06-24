@@ -27,7 +27,7 @@ class EventListener implements Listener {
 		$player = $this->plugin->getServer()->getPlayerByPrefix($username);
 
 		if($player instanceof Player && $player->isOnline()){
-			(new PlayerTagUpdateEvent($player, new ScoreTag("levelsystem.lvl", (string) $this->plugin->Levelsystem->getDataManager()->getLevel();
+			(new PlayerTagUpdateEvent($player, new ScoreTag("levelsystem.lvl", (string) $this->plugin->Levelsystem->getDataManager()->getLevel());
 		}
   }
 }
