@@ -7,7 +7,7 @@ use ItsToxicGG\listeners\EventListener;
 use ItsToxicGG\listeners\TagResolveListener;
 use Laith98Dev\LevelSystem\Main;
 
-class LevelScore extends PluginBase {
+class LvlScore extends PluginBase {
 
   /** @var Main */	
   public $Levelsystem;
