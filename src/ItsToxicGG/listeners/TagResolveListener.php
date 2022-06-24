@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace ItsToxicGG\listeners;
 
-use ItsToxicGG\Main;
+use ItsToxicGG\LvlScore;
 use Ifera\ScoreHud\event\TagsResolveEvent;
 use pocketmine\event\Listener;
 use function count;
@@ -11,10 +11,10 @@ use function explode;
 
 class TagResolveListener implements Listener{
 
-	/** @var Main */
+	/** @var LvlScore */
 	private $plugin;
 
-	public function __construct(Main $plugin){
+	public function __construct(LvlScore $plugin){
 		$this->plugin = $plugin;
 	}
 
