@@ -10,7 +10,7 @@ use pocketmine\player\Player;
 
 class EventListener implements Listener {
   
-  /** @var Main */
+  /** @var LvlScore */
 	private $plugin;
 
 	public function __construct(LvlScore $plugin){
