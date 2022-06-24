@@ -30,10 +30,10 @@ class TagResolveListener implements Listener{
 
 		switch($tags[1]){
 			case "lvl":
-        $value = $this->plugin->levelsystem->getLevel($player);
+        $value = $this->plugin->Levelsystem->getDataManager()->getLevel($player);
 				break;
       case "level":
-        $value = $this->plugin->levelsystem->getLevel($player);
+        $value = $this->plugin->Levelsystem->getDataManager()->getLevel($player);
         break;
 		}
 
