@@ -1,14 +1,18 @@
 # LevelScore
-INFO:
-hi, im toxic and im not good php development yet this is only one of my plugins
+Info:
+This plugin allows you to use levelsystem for the plugin scorehud
 
-i hope it works
+**Info**
+How to use?
+You can use it by doing this in you scorehud scoreboard:
+```yml
+# add it using {levelsystem.lvl}
+# example
+    - "§fLevel: §a{levelsystem.lvl}"
+```
 
-and also check out my other plugins there name is
-- LDFx
-- Duelss
-
-Theres is more you can check!
+showcasing this plugin (yt video)
+- https://www.youtube.com/watch?v=2AJrQzB2JDM
 # Required
 - This plugin is required to have the plugin ScoreHud to work
 - if you do not have the plugin it may cause an error 
