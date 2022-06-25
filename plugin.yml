@@ -3,3 +3,4 @@ version: 1.0.0
 api: 4.0.0
 author: ItsToxicGG
 main: ItsToxicGG\LvlScore
+depend: [ScoreHud, LevelSystem]
