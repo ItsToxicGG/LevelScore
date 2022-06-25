@@ -17,8 +17,8 @@ class EventListener implements Listener {
 		$this->plugin = $plugin;
 	}
  
-  public function onLevelChange(){ // not a real event
-    $username = $player->getName();
+  public function onLevelChange(Player $player){ // not a real event
+                $username = $player->getName();
     
 		if(is_null($username)){
 			return;
