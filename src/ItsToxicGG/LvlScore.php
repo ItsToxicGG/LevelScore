@@ -18,7 +18,7 @@ class LvlScore extends PluginBase {
 		$this->getServer()->getPluginManager()->registerEvents(new TagResolveListener($this), $this);
   }
 	
-  public function getLevelsystem(): Main{
+  public function getLevelsystem(): DataMgr{
 		return $this->Levelsystem;
   }	
 } 
